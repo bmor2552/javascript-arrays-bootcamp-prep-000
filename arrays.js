@@ -22,7 +22,7 @@ return array[index]
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-  return array.prototype.shift()
+  return array..shift()
 }
 
 function removeElementFromBeginningOfArray(array) {
@@ -30,7 +30,7 @@ return array.slice(1)
 }
 
 function destructivelyRemoveElementFromEndOfArray(array) {
-return array.prototype.pop()
+return array..pop()
 }
 
 function removeElementFromEndOfArray(array) {
