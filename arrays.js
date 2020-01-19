@@ -22,8 +22,8 @@ return array[index]
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-array.shift
-return array
+return array.shift
+
 }
 
 function removeElementFromBeginningOfArray(array) {
@@ -31,8 +31,7 @@ return array.slice(1)
 }
 
 function destructivelyRemoveElementFromEndOfArray(array) {
- array.pop
- return array
+ return array.pop
 }
 
 function removeElementFromEndOfArray(array) {
