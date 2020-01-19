@@ -20,3 +20,20 @@ return [...array, element]
 function accessElementInArray(array, index) {
 return array[index]
 }
+
+function destructivelyRemoveElementFromBeginningOfArray(array) {
+  return array.shift
+}
+
+function removeElementFromBeginningOfArray(){
+
+}
+
+function destructivelyRemoveElementFromEndOfArray(){
+
+}
+
+function removeElementFromEndOfArray(){
+
+}
+
